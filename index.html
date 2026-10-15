@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Accessible Profile Page</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 2;
+            color: #000;
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+        }
+        main {
+            background: rgba(0,0,0,0.4);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <main class="profile-card">
+        <h1>PERSONAL PROFILE</h1>
+        
+        <section>
+            <h2>Profile Picture</h2>
+            <img src="./Ayooke.png" alt="Picture of Ayo showing the upperbust wearing blue cloth" width="200" height="200">
+        </section>
+
+        <section>
+            <h2>Decorative Image</h2>
+            <img src="./banner.png" alt="" width="700" height="200">
+        </section>
+
+        <section>
+            <figure>
+                <h2>Figure Image</h2>
+                <img src="./Ayo office.jpg" alt="A picture of me in an office with flatscreen TV tea-cup on the table " width="350" height="350">
+                <figcaption>An office space for meetings.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Audio Element</h2>
+            <audio controls>
+                <source src="/Loru_ojo_ibi_Jesu_(_on_the_night_of_Jesus_birth)(128k).mp3" type="audio/mpeg">
+                Your browser does not support the audio element..
+            </audio>
+        </section>
+
+        <section>
+            <h2>Video Element</h2>
+            <video controls width="600" height="340">
+                <source src="./How To Connect Canva To Gemini.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+</body>
+</html>
